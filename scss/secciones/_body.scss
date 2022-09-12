@@ -1,0 +1,96 @@
+.titulo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a2e3c4;
+    color: rgb(255, 255, 255);
+}
+section{
+    form{
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            margin: 10px;
+        }        
+    }
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    form{
+        margin: 5px 5px 5px 5px;
+    }
+}
+.section2{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    .tarjeta{
+        width: 70%;
+        margin: 5px;
+        border: #a2e3c4 solid 3px;
+        border-radius: 10px;
+        transition: transform .1s; 
+        &:hover{
+            transform: scale(0.95); 
+        }
+    }
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    margin: 15px;
+    .texto1{
+        display: flex;
+    }
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card{
+        margin: 15px;
+        height: auto;
+        &:hover{
+            transform: scale(1.05);
+        }
+        .img2{
+            padding: 15%;
+            height: 230px;
+            &:hover{
+                background-color: #a2e3c4;
+            }
+        }
+    }
+}
+.wp{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 750px;
+    right: 0%;
+}
+.d-flex{
+    margin: 5px 5px 5px 5px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+}
