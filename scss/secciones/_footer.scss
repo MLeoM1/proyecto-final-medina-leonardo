@@ -1,9 +1,26 @@
 footer{
     section{
         div{
+            .logo3{
+                text-decoration: none;
+            }
             .logo2{
                 width: 40px;
-                text-decoration: none;
+                &:hover{
+                    transform: scale(1.15);
+                }
+            }
+            .link1, .link3{
+                &:hover{
+                    transform: scale(1.025);
+                    background-color: #a2e3c4;
+                }
+            }
+            .link2, .link4{
+                &:hover{
+                    transform: scale(1.025);
+                    background-color: #d0f0e0;
+                }
             }
         }
     }

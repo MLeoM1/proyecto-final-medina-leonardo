@@ -53,6 +53,7 @@ section{
     align-content: space-between;
     justify-content: center;
     margin: 15px;
+    font-family: 'Fjalla One', sans-serif;
     .texto1{
         display: flex;
     }
@@ -61,11 +62,17 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #d0f0e0;
+    border-radius: 10px;
     .card{
+        border: 2px solid #d0f0e0;
+        border-radius: 10px;
         margin: 15px;
         height: auto;
+        margin: 5px;
         &:hover{
             transform: scale(1.05);
+            border-radius: 15px;
         }
         .img2{
             padding: 15%;
@@ -76,12 +83,73 @@ section{
         }
     }
 }
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0f0e0;
+}
+.section6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2e3c4;
+    padding: 5px;
+    flex-direction: column;
+    font-family: 'Barlow Condensed', sans-serif;
+    &:hover{
+        background-color: #e4f5ec;
+        border: 1px solid #a2e3c4;
+    }
+}
+.section7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0f0e0;
+    padding: 5px;
+    flex-direction: column;
+    font-family: 'Barlow Condensed', sans-serif;
+    &:hover{
+        background-color: #e4f5ec;
+        border: 1px solid #a2e3c4;
+    }
+}
+.section8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2e3c4;
+    padding: 5px;
+    flex-direction: column;
+    font-family: 'Barlow Condensed', sans-serif;
+    &:hover{
+        background-color: #e4f5ec;
+        border: 1px solid #a2e3c4;
+    }
+}
+.section9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0f0e0;
+    padding: 5px;
+    flex-direction: column;
+    font-family: 'Barlow Condensed', sans-serif;
+    &:hover{
+        background-color: #e4f5ec;
+        border: 1px solid #a2e3c4;
+    }
+}
 .wp{
     width: 70px;
     height: 70px;
     position: fixed;
     top: 750px;
     right: 0%;
+    &:hover{
+        transform: scale(1.10);
+    }
 }
 .d-flex{
     margin: 5px 5px 5px 5px;
@@ -93,4 +161,17 @@ section{
     align-items: center;
     align-content: center;
     margin: 10px;
+}
+.section-arcordion{
+    margin-bottom: 15px;
+}
+.section-envio{
+    margin: 15px;
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }

@@ -1,8 +1,18 @@
 header{
     .navbar{
         background-color: #edeeee;
+        .bold1{
+            &:hover{
+                color: #3B413C;
+                font-weight: bold;
+            }
+        }
         .logo{
             height: 75px;
+            &:hover{
+                transform: scale(1.050);
+                border: #a2e3c4 solid 1px;
+            }
         }
     }
     div{
