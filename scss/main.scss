@@ -25,3 +25,31 @@
         margin: 10px 30% 10px 30%;
     }
 }
+@media (min-width: 900px){
+    .otrasPreguntas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #d0f0e0;
+        border-radius: 10px;
+        margin: 10px 15% 10px 15%;
+    }
+    .section-arcordion{
+        margin-bottom: 15px;
+        margin: 10px 15% 10px 15%;
+    }
+}
+@media (min-width: 1200px){
+    .otrasPreguntas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #d0f0e0;
+        border-radius: 10px;
+        margin: 10px 25% 10px 25%;
+    }
+    .section-arcordion{
+        margin-bottom: 15px;
+        margin: 10px 25% 10px 25%;
+    }
+}

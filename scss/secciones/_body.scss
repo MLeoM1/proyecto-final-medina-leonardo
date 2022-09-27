@@ -162,8 +162,19 @@ section{
     align-content: center;
     margin: 10px 20% 10px 20%;
 }
+.otrasPreguntas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d0f0e0;
+    border-radius: 10px;
+    margin: 10px 10% 10px 10%;
+    background-color: #e4f5ec;
+}
+
 .section-arcordion{
     margin-bottom: 15px;
+    margin: 10px 10% 10px 10%;
 }
 .section-envio{
     margin: 15px;
@@ -174,4 +185,10 @@ section{
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column;
+}
+.textoPreguntas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
 }
