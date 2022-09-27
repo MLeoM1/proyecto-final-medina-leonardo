@@ -163,7 +163,7 @@ section form .formulario {
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin: 10px; }
+  margin: 10px 20% 10px 20%; }
 
 .section-arcordion {
   margin-bottom: 15px; }
@@ -202,3 +202,7 @@ footer section div .link2:hover, footer section div .link4:hover {
     justify-content: center;
     align-content: center;
     align-items: center; } }
+
+@media (min-width: 775px) {
+  .formulario {
+    margin: 10px 30% 10px 30%; } }

@@ -10,7 +10,6 @@
 @import './secciones/footer';
 
 
-
 @media (max-width: 580px){
     .section4{
         display: flex;
@@ -19,5 +18,10 @@
         justify-content: center;
         align-content: center;
         align-items: center;
+    }
+}
+@media (min-width: 775px){
+    .formulario{
+        margin: 10px 30% 10px 30%;
     }
 }
